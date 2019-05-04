@@ -14,21 +14,23 @@ En la terminal usar "npm i" o "yarn install".
 
 ## 3. Iniciar la base de datos.
 Para esto debes tener MongoDB instalado en tu PC. https://www.mongodb.com/download-center/community.
+
 ### En mac
 Puedes usar el comando "mongod" en la terminal y dejarlo correr.
 
 ![Alt text](https://raw.githubusercontent.com/leotangram/ooh-back/master/assets/images/3.png)
 
 ### En windows
-Puedes correr el archivo mongod.exe y mongo.exe
+Puedes correr el archivo mongod.exe y mongo.exe y dejarlos correr.
 
 ## 4.
-En la terminar usa el comando "npm start"
+En la terminal usa el comando "npm start"
 
 ![Alt text](https://raw.githubusercontent.com/leotangram/ooh-back/master/assets/images/4.png)
 
 ## 5. Postman
 Cuando la base de datos y el proyecto estén corriendo, usar postman o insomnia, etc... (Yo usaré postman).
+
 ### 5.1 GET ALL PRODUCTS
 Para ver el arreglo de productos usar el verbo get con la siguiente dirección: http://localhost:3000/api/product
 

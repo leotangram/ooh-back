@@ -62,24 +62,9 @@ function updateProduct(req, res) {
   })
 }
 
-function deleteProduct(req, res) {
-  let productId = req.params.productId
-
-  Product.findById(productId, err => {
-    if (err)
-      res.status(500).send({ message: `Erros al borrar el producto: ${err}` })
-    product.remove(err => {
-      if (err)
-        res.status(500).send({ message: `Erros al borrar el producto: ${err}` })
-      res.status(200).send({ message: 'El producto ha sido eliminado' })
-    })
-  })
-}
-
 module.exports = {
   getProduct,
   getProducts,
   saveProduct,
-  updateProduct,
-  deleteProduct
+  updateProduct
 }

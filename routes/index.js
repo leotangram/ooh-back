@@ -8,6 +8,5 @@ api.get('/product', productCtrl.getProducts)
 api.get('/product/:productId', productCtrl.getProduct)
 api.post('/product', productCtrl.saveProduct)
 api.patch('/product/:productId', productCtrl.updateProduct)
-api.delete('/product/:productId', productCtrl.deleteProduct)
 
 module.exports = api
