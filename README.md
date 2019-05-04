@@ -5,6 +5,8 @@ Para usar este proyecto seguir los siguientes pasos:
 ## 1.
 Clonar el poyecto.
 
+https://raw.githubusercontent.com/leotangram/ooh-back/master/assets/images/1.png
+
 ## 2.
 En la terminal usar "npm i" o "yarn install".
 
@@ -30,5 +32,3 @@ Para actualizar un producto, debes agregarle el id correspondiente al producto d
 Luego cambias el campo que quieras y listo.
 ### 5.3 GET A PRODUCT
 Para ver un producto específico debes agregar la misma url que en patch, pero con el verbo GET.
-### 5.4 DELETE
-Para eliminar debes usar la misma dirección que en PATCH pero con el verbo DELETE.
